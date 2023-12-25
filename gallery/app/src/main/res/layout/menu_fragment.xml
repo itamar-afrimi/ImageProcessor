@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_gravity="top|center_horizontal"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="@string/chooseOption">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bw_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black &amp; White"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/blur_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="blur image" />
+
+        <Button
+            android:id="@+id/edges_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="image edges" />
+
+        <Button
+            android:id="@+id/negative_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="negative image">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

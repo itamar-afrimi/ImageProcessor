@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.gallery.presentation.fragment.MenuFragment">
+        <action
+            android:id="@+id/action_menuFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.gallery.presentation.fragment.GalleryFragment">
+        <action
+            android:id="@+id/action_galleryFragment_to_galleryImageFragment"
+            app:destination="@id/galleryImageFragment" />
+        <argument
+            android:name="optionType"
+            app:argType="string">
+
+        </argument>
+    </fragment>
+    <fragment
+        android:id="@+id/galleryImageFragment"
+        android:name="com.example.gallery.presentation.fragment.GalleryImageFragment">
+        <argument
+            android:name="galleryItem"
+            app:argType="com.example.gallery.presentation.GalleryItem" />
+        <argument
+            android:name="option"
+            app:argType="string">
+
+        </argument>
+    </fragment>
+
+
+</navigation>

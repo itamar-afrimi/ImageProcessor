@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="no_permissions_message">Can\'t show images without permission</string>
+    <string name="submit_upload_request">Submit Upload Request</string>
+    <string name="upload">Upload</string>
+    <string name="download_result">Download Result</string>
+    <string name="download_status">Download Status</string>
+    <string name="fetch_error">Error while fetching URL!</string>
+    <string name="url_fetched">Upload URL Fetched</string>
+    <string name="image_uploaded">Image Uploaded</string>
+    <string name="upload_error">Error while uploading image!</string>
+    <string name="still_processing">Still Processing Image...</string>
+    <string name="image_ready">Image is ready</string>
+    <string name="process_error">Error processing image!</string>
+    <string name="cant_process_image">Can\'t process this image</string>
+    <string name="no_url_message">No url is found</string>
+    <string name="no_job_id_message">No job ID is found</string>
+    <string name="bind_images">Bind Images</string>
+    <string name="black_amp_white"><![CDATA[Black & White]]></string>
+    <string name="style_transfer">Style Transfer</string>
+    <string name="chooseOption">choose Option</string>
+    <string name="no_read_permission_message">cannot show image</string>
+    <string name="no_write_permission_message">cannot download</string>
+    <string name="process_image">Process image</string>
+</resources>
